@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "KessokuLib Documentation",
   description: "下北沢で本当有名のバンド & Kessoku",
+  base: "/documentation/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

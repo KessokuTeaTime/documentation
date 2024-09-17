@@ -1,7 +1,13 @@
 import { defineConfig } from 'vitepress'
+import Icons from 'unplugin-icons/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  vite: {
+    plugins: [
+      Icons({ compiler: 'vue3' })
+    ]
+  },
   title: "KessokuLib Documentation",
   description: "下北沢で本当有名のバンド & Kessoku",
   base: "/documentation/",
@@ -24,6 +30,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/KessokuTeaTime/documentation' }
-    ]
+    ],
+
+    search: {
+      provider: 'local'
+    }
   }
 })

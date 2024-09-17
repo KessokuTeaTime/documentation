@@ -5,24 +5,24 @@ import Icons from 'unplugin-icons/vite'
 export default defineConfig({
   vite: {
     plugins: [
-      Icons({ compiler: 'vue3' })
+      Icons({ compiler: "vue3" })
     ]
   },
-  title: "KessokuLib Documentation",
+  title: "Kessoku Documentation",
   description: "下北沢で本当有名のバンド & Kessoku",
   base: "/documentation/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Introduces', link: '/lib-docs/index' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'KessokuLib',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: 'Introduction KessokuLib', link: '/lib-docs/index' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }

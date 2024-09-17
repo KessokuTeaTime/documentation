@@ -5,11 +5,11 @@ layout: home
 hero:
   name: "下北沢で本当有名のバンド."
   text: "Kessoku"
-  tagline: My great project tagline
+  tagline: KessokuTeaTime official docs!
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: KessokuLib
+      link: /lib-docs/index
     - theme: alt
       text: API Examples
       link: /api-examples

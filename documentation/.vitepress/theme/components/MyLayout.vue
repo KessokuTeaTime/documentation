@@ -4,7 +4,6 @@ import { VersionLink } from "./VersionBadge.vue";
 import { Version } from "./VersionBox.vue";
 import VersionLine from "./VersionLine.vue";
 import { useData, useRoute } from "vitepress";
-import VersionReminder from "./VersionReminder.vue"
 const { Layout } = DefaultTheme;
 
 const { frontmatter } = useData();
@@ -115,8 +114,7 @@ function loadsVersion(frontmatter: { versions: { id: any; vanilla: any; loaders:
 <template>
   <Layout>
     <template #doc-before>
-      <VersionLine versions="loadsVersion(frontmatter, posts)"></VersionLine>
-      <VersionReminder>1.21</VersionReminder>
+      
       <p style="color: grey">{{ frontmatter.description }}</p>
     </template>
   </Layout>

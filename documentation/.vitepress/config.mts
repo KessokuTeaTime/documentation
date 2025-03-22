@@ -15,7 +15,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Introduces', link: '/lib-docs/index' }
+      { text: 'KessokuLib', link: '/lib-docs/index' },
+      { text: 'Koom', link: '/koom-docs/index' }
     ],
 
     sidebar: [
@@ -23,6 +24,13 @@ export default defineConfig({
         text: 'KessokuLib',
         items: [
           { text: 'Introduction KessokuLib', link: '/lib-docs/index' },
+          { text: 'KessokuLib Modules', link: '/lib-docs/modules' }
+        ]
+      },
+      {
+        text: 'Koom',
+        items: [
+          { text: 'Introduction Koom', link: '/koom-docs/index' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }

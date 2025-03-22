@@ -11,14 +11,16 @@ hero:
       text: KessokuLib
       link: /lib-docs/index
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Koom
+      link: /koom-docs/index
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Cross-platform Library
+    details: The next generation cross-platform modular Minecraft modding library.
+    link: /lib-docs/index
+  - title: Multi-modloader modding toolchain
+    details: A fork of Fabric Loom that supports the multi-modloader modding toolchain.
+    link: /koom-docs/index
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---

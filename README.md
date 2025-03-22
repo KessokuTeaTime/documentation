@@ -1,3 +1,3 @@
 # documentation
 
-KessokuTeaTime mods documentation
+KessokuTeaTime documentation

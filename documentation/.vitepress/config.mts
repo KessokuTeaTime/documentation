@@ -1,11 +1,10 @@
-import { defineConfig } from 'vitepress'
-import Icons from 'unplugin-icons/vite'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   vite: {
     plugins: [
-      Icons({ compiler: "vue3" })
+      
     ]
   },
   title: "Kessoku Documentation",

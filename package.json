@@ -1,6 +1,5 @@
 {
   "devDependencies": {
-    "@iconify-json/fluent": "^1.2.1",
     "unplugin-icons": "^0.19.3",
     "vite-plugin-svg-icons": "^2.0.1",
     "vitepress": "^1.6.3"

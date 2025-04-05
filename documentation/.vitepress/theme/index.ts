@@ -6,8 +6,8 @@ import MyLayout from './components/MyLayout.vue'
 import VersionBadge from './components/VersionBadge.vue'
 import VersionBox from './components/VersionBox.vue'
 import VersionLine from './components/VersionLine.vue'
-import VersionSwitcher from "./components/VersionSwitcher.vue";
-import VSvg from "./components/VSvg.vue"
+import VersionSwitcher from "./components/VersionSwitcher.vue"
+import VSvg from "./components/VSvg.vue";
 
 import './styles/blur.css'
 
@@ -19,7 +19,7 @@ export default {
     app.component('VersionBadge' , VersionBadge)
     app.component('VersionBox' , VersionBox)
     app.component('VersionLine' , VersionLine)
-    app.component('VersionSwitcher', VersionSwitcher);
+    app.component('VersionSwitcher', VersionSwitcher)
     app.component("VSvg", VSvg)
   }
 } satisfies Theme

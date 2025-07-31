@@ -1,3 +1,3 @@
 # documentation
 
-KessokuTeaTime documentation
+KessokuTeaTime documentation kessokuteatime.github.io/documentation/

@@ -9,6 +9,7 @@ import VersionLine from './components/VersionLine.vue'
 import VersionSwitcher from "./components/VersionSwitcher.vue"
 import VSvg from "./components/VSvg.vue";
 
+import './styles.css'
 import './styles/blur.css'
 
 export default {
